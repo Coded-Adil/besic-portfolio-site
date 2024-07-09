@@ -10,11 +10,13 @@
     font-size: 32px;
     font-weight: 800;
     color: #0D1321;
+    text-align: center;
 }
 
 .section-description{
     font-size: 16px;
     line-height: 25px;
+    text-align: center;
 }
 
 .rock2{
@@ -145,4 +147,19 @@ main section{
     border: 1px solid #0D1321;
     font-size: 20px;
     margin: 10px 5px;
+}
+
+/* inspiration section */
+
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video-section{
+    margin: 50px;
+    padding: 32px;
+    border: 1px solid #0D1321;
+    border-radius: 16px;
 }
