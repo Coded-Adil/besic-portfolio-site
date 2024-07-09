@@ -99,6 +99,7 @@ main section{
 .about-container{
     border: 80px 97px;
     border-radius: 16px;
+    background-color: rgba(13, 19, 33, 2%);
 }
 
 .about-items{
