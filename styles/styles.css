@@ -17,6 +17,20 @@
     line-height: 25px;
 }
 
+.rock2{
+    background-image: linear-gradient(to right ,rgba(255,255,255,0%), rgba(255,255,255,100%));
+}
+
+.rock1{
+    background-image: linear-gradient(to right ,rgba(255,255,255,100%), rgba(255,255,255,0%));
+}
+
+.rock1 img{
+    margin-left: 32px;
+}
+.rock2 img{
+    margin-right: 32px;
+}
 /* Nav styles */
 nav{
     display: flex;
@@ -30,7 +44,7 @@ nav{
     font-size: 28px;
 }
 
-  .nav-btn{
+.nav-btn{
     background-color: white;
     font-weight: 600;
     color: #0D1321;
@@ -90,25 +104,29 @@ main section{
     margin-bottom: 130px;
 }
 /* About styles */
+
 .about{
-    border-radius: 10px;
-    padding: 130px 150px;
-    text-align: center;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 2%);
+    padding: 80px 97px;
 }
 
 .about-container{
-    border: 80px 97px;
-    border-radius: 16px;
-    background-color: rgba(13, 19, 33, 2%);
+    text-align: center;
 }
 
 .about-items{
     display: flex;
     flex-direction: column;
+    margin: 48px;
 }
 .about-item{
     display: flex;
     justify-content: space-between;
+    text-align: start;
+    margin: 32px;
+    padding: 48px;
+    border-radius: 16px;
 }
 .item-discription{
     font-weight: 600;
@@ -117,4 +135,14 @@ main section{
 .item-title{
     font-size: 24px;
     font-weight: 700;
+}
+
+.about-btn{
+    background-color: white;
+    font-weight: 600;
+    color: #0D1321;
+    padding: 17px 24px;
+    border: 1px solid #0D1321;
+    font-size: 20px;
+    margin: 10px 5px;
 }
