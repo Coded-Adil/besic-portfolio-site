@@ -267,6 +267,9 @@ main section{
     margin: 64px;
 }
 
+.sub-btn:hover{
+    color: white;
+}
 /* footer style */
 footer{
     display: flex;
