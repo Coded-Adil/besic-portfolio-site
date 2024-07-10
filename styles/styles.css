@@ -87,12 +87,16 @@ nav{
 .btn-contact{
     background-color: #0D1321;
     font-weight: 600;
-    color: white;
     padding: 17px 24px;
     border: 1px solid #0D1321;
     border-radius: 8px;
     font-size: 20px;
     margin: 45px;
+}
+
+.btn-contact a{
+    text-decoration: none;
+    color: white;
 }
 
 /* main style */
@@ -162,4 +166,94 @@ main section{
     padding: 32px;
     border: 1px solid #0D1321;
     border-radius: 16px;
+}
+
+/* skill style */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 40px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    margin: 24px;
+}
+
+.skill a{
+    color: #0D1321;
+}
+.skill-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.html{
+    background-color: rgba(255, 76, 30, 5%);
+}
+
+.css{
+    background-color: rgba(0, 76, 232, 5%);
+}
+
+.js{
+    background-color: rgba(255, 223, 0, 5%);
+}
+
+/* contact section */
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 64px 48px;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../images/handshake.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 313px;
+    border-radius: 16px;
+}
+
+.contact h3{
+    color: white;
+    margin: 16px;
+}
+
+.contact p{
+    margin: 16px;
+}
+
+.contact textarea{
+    height: 25px;
+    border-radius: 8px;
+    background-color: white;
+    display: inline;
+    width: 50%;
+    padding: 17px 24px;
+    border: none;
+}
+
+.contact .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px;
+}
+
+/* footer style */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 2%);
+}
+
+footer .copy-right{
+    padding-top: 20px;
+}
+
+footer .icons{
+    margin: 24px;
 }
