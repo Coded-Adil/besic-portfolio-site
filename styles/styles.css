@@ -57,6 +57,20 @@ nav{
     margin: 10px 5px;
 }
 
+.nav-btn:hover{
+    background-color: #0D1321;
+    transition: 0.5s;
+}
+
+.nav-btn a{
+    text-decoration: none;
+    color: #0D1321;
+}
+.nav-btn a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
   
   /* banner styles */
 .banner{
@@ -94,9 +108,19 @@ nav{
     margin: 45px;
 }
 
+.btn-contact:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
 .btn-contact a{
     text-decoration: none;
     color: white;
+}
+
+.btn-contact a:hover{
+    color: #0D1321;
+    transition: 0.5s;
 }
 
 /* main style */
@@ -136,6 +160,7 @@ main section{
 }
 .item-discription{
     font-weight: 600;
+    text-align: start;
 }
 
 .item-title{
@@ -226,6 +251,7 @@ main section{
 
 .contact textarea{
     height: 25px;
+    line-height: 25px;
     border-radius: 8px;
     background-color: white;
     display: inline;
